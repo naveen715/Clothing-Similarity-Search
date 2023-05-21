@@ -1,6 +1,6 @@
 # Clothing Item Similarity Search
 
-This project aims to create a machine learning model capable of receiving text describing a clothing item and returning a ranked list of links to similar items from different websites. The solution is implemented in a single notebook on Google Colab, which performs data collection, preprocessing, similarity calculation, and returns ranked results.
+This project aims to create a machine learning model capable of receiving text describing a clothing item and returning a ranked list of links to similar items from https://www.boohoo.com/. The solution is implemented in a single notebook on Google Colab, which performs data collection, preprocessing, similarity calculation, and returns ranked results.
 
 ## Project Structure
 
