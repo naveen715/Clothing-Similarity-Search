@@ -6,30 +6,39 @@ This project aims to create a machine learning model capable of receiving text d
 
 The project is divided into the following steps:
 
-1. **Step 1: Data Collection**: Web scrape clothing item descriptions from various websites and store them in CSV files.
-2. **Step 2: Data Preprocessing**: Preprocess and cleanse the collected data, including removing punctuation, converting text to lowercase, tokenization, removing stop words, and performing stemming.
-3. **Step 3: Similarity Calculation**: Extract features from the preprocessed data and compute the similarity index between the input text and the items in the dataset.
-4. **Step 4: Ranked Results**: Return ranked results by sorting the similarity scores and retrieving the top-N most similar item URLs.
+1. **Step 1: Data Collection**: 
 
-## Implementation
+   - The notebook includes code to scrape clothing item descriptions from various websites.
+   - The collected data is saved in CSV files, which serve as the dataset for the similarity search.
 
-The implementation is done in a single notebook file, which includes the following sections:
+2. **Step 2: Data Preprocessing**:
 
-1. **Data Collection**: Contains the code to web scrape clothing item descriptions from various websites and store them in CSV files.
-2. **Data Preprocessing**: Implements the data preprocessing steps, including text cleaning, tokenization, and stemming.
-3. **Similarity Calculation**: Computes the similarity index between the input text and the dataset using TF-IDF and cosine similarity.
-4. **Ranked Results**: Ranks the results based on similarity scores and returns the top-N most similar item URLs.
+   - The code performs data preprocessing tasks such as cleaning, tokenization, and stemming.
+   - These steps help to normalize the text data for similarity calculation.
+
+3. **Step 3: Similarity Calculation**:
+
+   - The notebook implements a similarity calculation method using TF-IDF and cosine similarity.
+   - It compares the input text with the preprocessed data and computes similarity scores.
+
+4. **Step 4: Ranked Results**:
+
+   - The code ranks the results based on similarity scores.
+   - It returns the top-N most similar item URLs.
 
 ## Usage
 
 To use the clothing item similarity search, follow these steps:
 
 1. Open the notebook file in Google Colab.
+
 2. Run each section sequentially, starting from data collection, data preprocessing, similarity calculation, and ranked results.
+
 3. Provide the input text and the desired number of results in the ranked results section to get the top-N most similar item URLs.
+
 4. The ranked results will be displayed in the output.
 
-## Result
+## Result 
 ![Project Result](https://github.com/naveen715/Clothing-Similarity-Search/blob/main/result.png)
 
 ## Conclusion
