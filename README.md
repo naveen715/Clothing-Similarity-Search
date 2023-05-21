@@ -29,6 +29,9 @@ To use the clothing item similarity search, follow these steps:
 3. Provide the input text and the desired number of results in the ranked results section to get the top-N most similar item URLs.
 4. The ranked results will be displayed in the output.
 
+## Result
+![Project Result](https://github.com/naveen715/Clothing-Similarity-Search/blob/main/result.png)
+
 ## Conclusion
 
 The clothing item similarity search project implemented in a single notebook provides a straightforward way to gather clothing item descriptions, preprocess the data, calculate similarity, and return ranked results. By following the provided steps, you can easily use the functionality of the project and explore different clothing item recommendations.
